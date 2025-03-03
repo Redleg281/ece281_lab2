@@ -57,7 +57,7 @@ with i_Hex select
     "0100001" when "1101",
     "0000110" when "1110",
     "0001110" when "1111",
-    "0000001" when others;
+    "1000000" when others;
     
 
 end Behavioral;

@@ -60,7 +60,7 @@ test_process : process
 
 	
         w_Hex <= x"0"; wait for 10 ns;
-            assert w_Seg = "0000001" report "error on 0" severity failure;
+            assert w_Seg = "1000000" report "error on 0" severity failure;
         w_Hex <= x"1"; wait for 10 ns;
             assert w_Seg = "1111001" report "error on 1" severity failure;
         w_Hex <= x"2"; wait for 10 ns;
