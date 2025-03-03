@@ -78,7 +78,7 @@ test_process : process
         w_Hex <= x"8"; wait for 10 ns;
             assert w_Seg = "0000000" report "error on 8" severity failure;
         w_Hex <= x"9"; wait for 10 ns;
-            assert w_Seg = "0010000" report "error on 9" severity failure;
+            assert w_Seg = "0011000" report "error on 9" severity failure;
         w_Hex <= x"A"; wait for 10 ns;
             assert w_Seg = "0001000" report "error on A" severity failure;
         w_Hex <= x"B"; wait for 10 ns;

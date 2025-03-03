@@ -111,9 +111,8 @@ begin
     o_seg_n(4) => seg(4),
     o_seg_n(5) => seg(5),
     o_seg_n(6) => seg(6)
-    
- );
  
+ );
 --| only using the first light so the rest should be off, meaning 1
 --| this code is just for the board meaning it should not be in the port map
 
